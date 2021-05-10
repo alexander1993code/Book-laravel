@@ -1,0 +1,8 @@
+[Info  - 13:57:54] Initialising intelephense 1.7.1
+[Info  - 13:57:54] Initialised in 14 ms
+[Info  - 13:57:54] Environment changed. Refreshing 1 in memory documents.
+[Warn  - 13:57:54] file:///opt/lampp/htdocs/book/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 13:57:54] Indexing started.
+[Info  - 13:58:09] Indexing ended. 6308 files indexed in 14s.
+[Info  - 13:58:09] Writing state to /opt/lampp/htdocs/book/book/User/workspaceStorage/bbabf56261918fc818bb850bb2a8d31a/bmewburn.vscode-intelephense-client/5dc87450.
+[Info  - 13:58:10] Wrote state in 1.0s.

@@ -1,0 +1,310 @@
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 13:57:31] 6287 files total
+[Info  - 13:57:31] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/home.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/verify.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/register.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/login.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/email.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/confirm.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/reset.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/create.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/index.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/edit.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/welcome.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/post.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/layouts/app.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/pagination.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/auth.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/passwords.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/validation.php
+Parsing file:///opt/lampp/htdocs/book/public/index.php
+Parsing file:///opt/lampp/htdocs/book/config/filesystems.php
+Parsing file:///opt/lampp/htdocs/book/config/cors.php
+Parsing file:///opt/lampp/htdocs/book/config/session.php
+Parsing file:///opt/lampp/htdocs/book/config/mail.php
+Parsing file:///opt/lampp/htdocs/book/config/broadcasting.php
+Parsing file:///opt/lampp/htdocs/book/config/queue.php
+Parsing file:///opt/lampp/htdocs/book/config/app.php
+CRITICAL  Error: Call to undefined method Microsoft\PhpParser\MissingToken::getResolvedName() in /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php:1033
+Stack trace:
+#0 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(815): LanguageServer\DefinitionResolver->resolveClassNameToType()
+#1 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(827): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#2 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(682): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#3 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(404): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#4 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(331): LanguageServer\DefinitionResolver->resolveMemberAccessExpressionNodeToFqn()
+#5 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(175): LanguageServer\DefinitionResolver->resolveReferenceNodeToFqn()
+#6 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(124): LanguageServer\TreeAnalyzer->collectDefinitionsAndReferences()
+#7 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#8 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#9 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(136): LanguageServer\TreeAnalyzer->traverse()
+#10 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(58): LanguageServer\TreeAnalyzer->traverse()
+#11 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(147): LanguageServer\TreeAnalyzer->__construct()
+#12 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(105): LanguageServer\PhpDocument->updateContent()
+#13 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(141): LanguageServer\PhpDocument->__construct()
+#14 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(120): LanguageServer\PhpDocumentLoader->create()
+#15 [internal function]: LanguageServer\PhpDocumentLoader->LanguageServer\{closure}()
+#16 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/coroutine.php(70): Generator->send()
+#17 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Promise.php(242): Sabre\Event\{closure}()
+#18 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(261): Sabre\Event\Promise->Sabre\Event\{closure}()
+#19 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(215): Sabre\Event\Loop\Loop->runNextTicks()
+#20 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(194): Sabre\Event\Loop\Loop->tick()
+#21 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/functions.php(122): Sabre\Event\Loop\Loop->run()
+#22 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/bin/php-language-server.php(55): Sabre\Event\Loop\run()
+#23 {main}
+
+Parsing file:///opt/lampp/htdocs/book/config/view.php
+Parsing file:///opt/lampp/htdocs/book/config/services.php
+[Info  - 13:57:31] Connection to server got closed. Server will restart.
+Language server exited with exit code 0
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 13:57:33] 6287 files total
+[Info  - 13:57:33] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/home.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/verify.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/register.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/login.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/email.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/confirm.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/reset.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/create.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/index.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/edit.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/welcome.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/post.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/layouts/app.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/pagination.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/auth.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/passwords.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/validation.php
+Parsing file:///opt/lampp/htdocs/book/public/index.php
+Parsing file:///opt/lampp/htdocs/book/config/filesystems.php
+Parsing file:///opt/lampp/htdocs/book/config/cors.php
+Parsing file:///opt/lampp/htdocs/book/config/session.php
+Parsing file:///opt/lampp/htdocs/book/config/mail.php
+Parsing file:///opt/lampp/htdocs/book/config/broadcasting.php
+Parsing file:///opt/lampp/htdocs/book/config/queue.php
+Parsing file:///opt/lampp/htdocs/book/config/app.php
+CRITICAL  Error: Call to undefined method Microsoft\PhpParser\MissingToken::getResolvedName() in /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php:1033
+Stack trace:
+#0 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(815): LanguageServer\DefinitionResolver->resolveClassNameToType()
+#1 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(827): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#2 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(682): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#3 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(404): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#4 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(331): LanguageServer\DefinitionResolver->resolveMemberAccessExpressionNodeToFqn()
+#5 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(175): LanguageServer\DefinitionResolver->resolveReferenceNodeToFqn()
+#6 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(124): LanguageServer\TreeAnalyzer->collectDefinitionsAndReferences()
+#7 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#8 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#9 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(136): LanguageServer\TreeAnalyzer->traverse()
+#10 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(58): LanguageServer\TreeAnalyzer->traverse()
+#11 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(147): LanguageServer\TreeAnalyzer->__construct()
+#12 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(105): LanguageServer\PhpDocument->updateContent()
+#13 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(141): LanguageServer\PhpDocument->__construct()
+#14 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(120): LanguageServer\PhpDocumentLoader->create()
+#15 [internal function]: LanguageServer\PhpDocumentLoader->LanguageServer\{closure}()
+#16 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/coroutine.php(70): Generator->send()
+#17 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Promise.php(242): Sabre\Event\{closure}()
+#18 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(261): Sabre\Event\Promise->Sabre\Event\{closure}()
+#19 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(215): Sabre\Event\Loop\Loop->runNextTicks()
+#20 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(194): Sabre\Event\Loop\Loop->tick()
+#21 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/functions.php(122): Sabre\Event\Loop\Loop->run()
+#22 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/bin/php-language-server.php(55): Sabre\Event\Loop\run()
+#23 {main}
+
+Parsing file:///opt/lampp/htdocs/book/config/view.php
+Parsing file:///opt/lampp/htdocs/book/config/services.php
+[Info  - 13:57:33] Connection to server got closed. Server will restart.
+Language server exited with exit code 0
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 13:57:35] 6287 files total
+[Info  - 13:57:35] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/home.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/verify.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/register.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/login.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/email.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/confirm.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/reset.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/create.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/index.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/edit.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/welcome.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/post.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/layouts/app.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/pagination.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/auth.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/passwords.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/validation.php
+Parsing file:///opt/lampp/htdocs/book/public/index.php
+Parsing file:///opt/lampp/htdocs/book/config/filesystems.php
+Parsing file:///opt/lampp/htdocs/book/config/cors.php
+Parsing file:///opt/lampp/htdocs/book/config/session.php
+Parsing file:///opt/lampp/htdocs/book/config/mail.php
+Parsing file:///opt/lampp/htdocs/book/config/broadcasting.php
+Parsing file:///opt/lampp/htdocs/book/config/queue.php
+Parsing file:///opt/lampp/htdocs/book/config/app.php
+CRITICAL  Error: Call to undefined method Microsoft\PhpParser\MissingToken::getResolvedName() in /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php:1033
+Stack trace:
+#0 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(815): LanguageServer\DefinitionResolver->resolveClassNameToType()
+#1 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(827): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#2 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(682): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#3 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(404): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#4 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(331): LanguageServer\DefinitionResolver->resolveMemberAccessExpressionNodeToFqn()
+#5 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(175): LanguageServer\DefinitionResolver->resolveReferenceNodeToFqn()
+#6 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(124): LanguageServer\TreeAnalyzer->collectDefinitionsAndReferences()
+#7 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#8 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#9 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(136): LanguageServer\TreeAnalyzer->traverse()
+#10 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(58): LanguageServer\TreeAnalyzer->traverse()
+#11 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(147): LanguageServer\TreeAnalyzer->__construct()
+#12 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(105): LanguageServer\PhpDocument->updateContent()
+#13 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(141): LanguageServer\PhpDocument->__construct()
+#14 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(120): LanguageServer\PhpDocumentLoader->create()
+#15 [internal function]: LanguageServer\PhpDocumentLoader->LanguageServer\{closure}()
+#16 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/coroutine.php(70): Generator->send()
+#17 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Promise.php(242): Sabre\Event\{closure}()
+#18 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(261): Sabre\Event\Promise->Sabre\Event\{closure}()
+#19 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(215): Sabre\Event\Loop\Loop->runNextTicks()
+#20 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(194): Sabre\Event\Loop\Loop->tick()
+#21 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/functions.php(122): Sabre\Event\Loop\Loop->run()
+#22 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/bin/php-language-server.php(55): Sabre\Event\Loop\run()
+#23 {main}
+
+Parsing file:///opt/lampp/htdocs/book/config/view.php
+Parsing file:///opt/lampp/htdocs/book/config/services.php
+[Info  - 13:57:35] Connection to server got closed. Server will restart.
+Language server exited with exit code 0
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 13:57:36] 6287 files total
+[Info  - 13:57:36] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/home.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/verify.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/register.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/login.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/email.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/confirm.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/reset.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/create.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/index.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/edit.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/welcome.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/post.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/layouts/app.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/pagination.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/auth.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/passwords.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/validation.php
+Parsing file:///opt/lampp/htdocs/book/public/index.php
+Parsing file:///opt/lampp/htdocs/book/config/filesystems.php
+Parsing file:///opt/lampp/htdocs/book/config/cors.php
+Parsing file:///opt/lampp/htdocs/book/config/session.php
+Parsing file:///opt/lampp/htdocs/book/config/mail.php
+Parsing file:///opt/lampp/htdocs/book/config/broadcasting.php
+Parsing file:///opt/lampp/htdocs/book/config/queue.php
+Parsing file:///opt/lampp/htdocs/book/config/app.php
+CRITICAL  Error: Call to undefined method Microsoft\PhpParser\MissingToken::getResolvedName() in /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php:1033
+Stack trace:
+#0 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(815): LanguageServer\DefinitionResolver->resolveClassNameToType()
+#1 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(827): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#2 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(682): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#3 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(404): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#4 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(331): LanguageServer\DefinitionResolver->resolveMemberAccessExpressionNodeToFqn()
+#5 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(175): LanguageServer\DefinitionResolver->resolveReferenceNodeToFqn()
+#6 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(124): LanguageServer\TreeAnalyzer->collectDefinitionsAndReferences()
+#7 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#8 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#9 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(136): LanguageServer\TreeAnalyzer->traverse()
+#10 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(58): LanguageServer\TreeAnalyzer->traverse()
+#11 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(147): LanguageServer\TreeAnalyzer->__construct()
+#12 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(105): LanguageServer\PhpDocument->updateContent()
+#13 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(141): LanguageServer\PhpDocument->__construct()
+#14 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(120): LanguageServer\PhpDocumentLoader->create()
+#15 [internal function]: LanguageServer\PhpDocumentLoader->LanguageServer\{closure}()
+#16 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/coroutine.php(70): Generator->send()
+#17 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Promise.php(242): Sabre\Event\{closure}()
+#18 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(261): Sabre\Event\Promise->Sabre\Event\{closure}()
+#19 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(215): Sabre\Event\Loop\Loop->runNextTicks()
+#20 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(194): Sabre\Event\Loop\Loop->tick()
+#21 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/functions.php(122): Sabre\Event\Loop\Loop->run()
+#22 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/bin/php-language-server.php(55): Sabre\Event\Loop\run()
+#23 {main}
+
+Parsing file:///opt/lampp/htdocs/book/config/view.php
+Parsing file:///opt/lampp/htdocs/book/config/services.php
+[Info  - 13:57:36] Connection to server got closed. Server will restart.
+Language server exited with exit code 0
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 13:57:38] 6287 files total
+[Info  - 13:57:38] Indexing project for definitions and static references
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/home.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/verify.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/register.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/login.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/email.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/confirm.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/auth/passwords/reset.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/create.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/index.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/posts/edit.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/welcome.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/post.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/views/layouts/app.blade.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/pagination.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/auth.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/passwords.php
+Parsing file:///opt/lampp/htdocs/book/resources/lang/en/validation.php
+Parsing file:///opt/lampp/htdocs/book/public/index.php
+Parsing file:///opt/lampp/htdocs/book/config/filesystems.php
+Parsing file:///opt/lampp/htdocs/book/config/cors.php
+Parsing file:///opt/lampp/htdocs/book/config/session.php
+Parsing file:///opt/lampp/htdocs/book/config/mail.php
+Parsing file:///opt/lampp/htdocs/book/config/broadcasting.php
+Parsing file:///opt/lampp/htdocs/book/config/queue.php
+Parsing file:///opt/lampp/htdocs/book/config/app.php
+CRITICAL  Error: Call to undefined method Microsoft\PhpParser\MissingToken::getResolvedName() in /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php:1033
+Stack trace:
+#0 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(815): LanguageServer\DefinitionResolver->resolveClassNameToType()
+#1 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(827): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#2 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(682): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#3 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(404): LanguageServer\DefinitionResolver->resolveExpressionNodeToType()
+#4 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/DefinitionResolver.php(331): LanguageServer\DefinitionResolver->resolveMemberAccessExpressionNodeToFqn()
+#5 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(175): LanguageServer\DefinitionResolver->resolveReferenceNodeToFqn()
+#6 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(124): LanguageServer\TreeAnalyzer->collectDefinitionsAndReferences()
+#7 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#8 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(140): LanguageServer\TreeAnalyzer->traverse()
+#9 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(136): LanguageServer\TreeAnalyzer->traverse()
+#10 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/TreeAnalyzer.php(58): LanguageServer\TreeAnalyzer->traverse()
+#11 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(147): LanguageServer\TreeAnalyzer->__construct()
+#12 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocument.php(105): LanguageServer\PhpDocument->updateContent()
+#13 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(141): LanguageServer\PhpDocument->__construct()
+#14 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/src/PhpDocumentLoader.php(120): LanguageServer\PhpDocumentLoader->create()
+#15 [internal function]: LanguageServer\PhpDocumentLoader->LanguageServer\{closure}()
+#16 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/coroutine.php(70): Generator->send()
+#17 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Promise.php(242): Sabre\Event\{closure}()
+#18 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(261): Sabre\Event\Promise->Sabre\Event\{closure}()
+#19 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(215): Sabre\Event\Loop\Loop->runNextTicks()
+#20 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/Loop.php(194): Sabre\Event\Loop\Loop->tick()
+#21 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/sabre/event/lib/Loop/functions.php(122): Sabre\Event\Loop\Loop->run()
+#22 /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/vendor/felixfbecker/language-server/bin/php-language-server.php(55): Sabre\Event\Loop\run()
+#23 {main}
+
+Parsing file:///opt/lampp/htdocs/book/config/view.php
+Language server exited with exit code 0
+Parsing file:///opt/lampp/htdocs/book/config/services.php
+[Error - 13:57:38] Connection to server got closed. Server will not be restarted.

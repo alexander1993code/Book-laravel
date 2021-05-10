@@ -1,0 +1,73 @@
+[2021-05-08 13:57:07.713] [exthost] [info] extension host started
+[2021-05-08 13:57:07.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-08 13:57:07.795] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-08 13:57:07.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-08 13:57:07.818] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-08 13:57:07.822] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-08 13:57:07.822] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/git/dist/main
+[2021-05-08 13:57:07.872] [exthost] [info] ExtensionService#_doActivateExtension bajdzis.vscode-twig-pack {"startup":true,"extensionId":{"value":"bajdzis.vscode-twig-pack","_lower":"bajdzis.vscode-twig-pack"},"activationEvent":"*"}
+[2021-05-08 13:57:07.872] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bajdzis.vscode-twig-pack-1.1.0/extension
+[2021-05-08 13:57:07.874] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-05-08 13:57:07.874] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-05-08 13:57:07.908] [exthost] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"extensionId":{"value":"Sophisticode.php-formatter","_lower":"sophisticode.php-formatter"},"activationEvent":"*"}
+[2021-05-08 13:57:07.908] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2021-05-08 13:57:07.913] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2021-05-08 13:57:07.913] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js
+[2021-05-08 13:57:08.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-08 13:57:08.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-05-08 13:57:08.198] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-08 13:57:08.198] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-08 13:57:08.405] [exthost] [info] eager extensions activated
+[2021-05-08 13:57:08.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-08 13:57:08.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-08 13:57:08.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:08.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-08 13:57:08.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:08.445] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-08 13:57:08.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:08.448] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-08 13:57:26.015] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-08 13:57:27.029] [exthost] [info] exiting with code 0
+[2021-05-08 13:57:27.981] [exthost] [info] extension host started
+[2021-05-08 13:57:28.114] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-08 13:57:28.115] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-08 13:57:28.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-08 13:57:28.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-08 13:57:28.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-08 13:57:28.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/git/dist/main
+[2021-05-08 13:57:28.162] [exthost] [info] ExtensionService#_doActivateExtension bajdzis.vscode-twig-pack {"startup":true,"extensionId":{"value":"bajdzis.vscode-twig-pack","_lower":"bajdzis.vscode-twig-pack"},"activationEvent":"*"}
+[2021-05-08 13:57:28.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bajdzis.vscode-twig-pack-1.1.0/extension
+[2021-05-08 13:57:28.166] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-05-08 13:57:28.166] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-05-08 13:57:28.192] [exthost] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"extensionId":{"value":"Sophisticode.php-formatter","_lower":"sophisticode.php-formatter"},"activationEvent":"*"}
+[2021-05-08 13:57:28.193] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2021-05-08 13:57:28.200] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2021-05-08 13:57:28.200] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js
+[2021-05-08 13:57:28.306] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-05-08 13:57:28.306] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-05-08 13:57:28.662] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-08 13:57:28.662] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-08 13:57:28.836] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-08 13:57:28.836] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-05-08 13:57:28.840] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":true,"extensionId":{"value":"felixfbecker.php-intellisense","_lower":"felixfbecker.php-intellisense"},"activationEvent":"workspaceContains:**/*.php"}
+[2021-05-08 13:57:28.840] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/out/extension
+[2021-05-08 13:57:29.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-08 13:57:29.791] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-08 13:57:30.564] [exthost] [info] eager extensions activated
+[2021-05-08 13:57:30.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:30.575] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-08 13:57:30.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:30.581] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-08 13:57:30.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-08 13:57:30.583] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-08 13:57:53.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2021-05-08 13:57:53.026] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/63/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-05-08 13:57:53.071] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2021-05-08 13:57:53.075] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-05-08 14:14:47.550] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2021-05-08 14:14:47.553] [exthost] [error] Canceled: Canceled
+    at w.makeCancelError (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128391)
+    at w.handleFailedRequest (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:128242)
+    at /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension.js:1:93115
+[2021-05-08 14:16:54.761] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-08 14:16:55.788] [exthost] [info] exiting with code 0
